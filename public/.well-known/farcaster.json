@@ -1,0 +1,24 @@
+{
+  "miniapp": {
+    "version": "1",
+    "name": "Your Mini App",
+    "iconUrl": "https://yourdomain.com/icon.png",
+    "homeUrl": "https://yourdomain.com",
+    "imageUrl": "https://yourdomain.com/preview.png",
+    "buttonTitle": "Launch App",
+    "splashImageUrl": "https://yourdomain.com/splash.png",
+    "splashBackgroundColor": "#ffffff",
+    "subtitle": "Your app description",
+    "description": "Longer description of what your app does",
+    "primaryCategory": "utility",
+    "tags": ["web3", "crypto"],
+    "requiredChains": [
+      "eip155:1",
+      "eip155:8453"
+    ],
+    "requiredCapabilities": [
+      "actions.signIn",
+      "wallet.getEthereumProvider"
+    ]
+  }
+}
