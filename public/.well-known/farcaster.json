@@ -1,19 +1,18 @@
 {
   "miniapp": {
     "version": "1",
-    "name": "Your Mini App",
-    "iconUrl": "https://yourdomain.com/icon.png",
-    "homeUrl": "https://yourdomain.com",
-    "imageUrl": "https://yourdomain.com/preview.png",
-    "buttonTitle": "Launch App",
-    "splashImageUrl": "https://yourdomain.com/splash.png",
-    "splashBackgroundColor": "#ffffff",
-    "subtitle": "Your app description",
-    "description": "Longer description of what your app does",
-    "primaryCategory": "utility",
-    "tags": ["web3", "crypto"],
+    "name": "iS'khaftin",
+    "iconUrl": "https://via.placeholder.com/1024x1024/F97316/FFFFFF?text=iS%27khaftin",
+    "homeUrl": "https://mini-app-six-bay.vercel.app",
+    "imageUrl": "https://via.placeholder.com/1200x800/F97316/FFFFFF?text=Ubuntu+Crowdfunding",
+    "buttonTitle": "Support Community",
+    "splashImageUrl": "https://via.placeholder.com/200x200/F97316/FFFFFF?text=Ubuntu",
+    "splashBackgroundColor": "#F97316",
+    "subtitle": "Ubuntu Community Support",
+    "description": "Micro-crowdfunding platform for South African communities, embodying Ubuntu philosophy through blockchain transparency",
+    "primaryCategory": "social",
+    "tags": ["crowdfunding", "community", "ubuntu", "blockchain"],
     "requiredChains": [
-      "eip155:1",
       "eip155:8453"
     ],
     "requiredCapabilities": [
