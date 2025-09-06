@@ -8,6 +8,7 @@ import { MiniKitContextProvider } from "@/providers/MiniKitProvider"
 import { Toaster } from "@/components/ui/toaster"
 import { Suspense } from "react"
 import "./globals.css"
+import { SiteHeader } from "@/components/site-header"
 
 export const metadata: Metadata = {
   title: "iS'khaftin - Ubuntu Community Crowdfunding",
@@ -45,6 +46,7 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <MiniKitContextProvider>
             <Web3Provider>
+              <SiteHeader />
               {children}
               <Toaster />
             </Web3Provider>

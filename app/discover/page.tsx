@@ -6,9 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Badge } from "@/components/ui/badge"
-import { WalletConnectButtonSimple } from "@/components/wallet-connect-button-simple"
-import { Heart, Search, Clock, Target, TrendingUp, Loader2 } from "lucide-react"
-import Link from "next/link"
+import { Search, Clock, Target, TrendingUp, Loader2 } from "lucide-react"
 import { useCampaigns } from "@/hooks/use-campaigns"
 import { useDonations } from "@/hooks/use-donations"
 
@@ -146,29 +144,7 @@ export default function DiscoverPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-              <Heart className="w-4 h-4 text-primary-foreground" />
-            </div>
-            <h1 className="text-xl font-bold text-foreground">iS'khaftin</h1>
-          </div>
-          <nav className="hidden md:flex items-center gap-6">
-            <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
-              Home
-            </Link>
-            <Link href="/discover" className="text-foreground font-medium">
-              Discover
-            </Link>
-            <Button asChild>
-              <Link href="/create">Start a Campaign</Link>
-            </Button>
-            <WalletConnectButtonSimple />
-          </nav>
-        </div>
-      </header>
+      
 
       <div className="container mx-auto px-4 py-8">
         {/* Page Header */}
