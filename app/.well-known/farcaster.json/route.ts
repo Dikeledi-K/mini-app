@@ -27,8 +27,8 @@ export async function GET() {
       primaryCategory: "social",
       tags: ["crowdfunding", "community", "ubuntu", "south-africa", "blockchain"],
       heroImageUrl: `${URL}/frame-image.jpg`,
-      tagline: "micro-crowdfunding",
-      ogTitle: "iS'khaftin",
+      tagline: "Ubuntu micro-crowdfunding",
+      ogTitle: "iS'khaftin Crowdfunding",
       ogDescription: "Transform social media engagement into direct community action through micro-donations",
       ogImageUrl: `${URL}/frame-image.jpg`,
       // use only while testing
